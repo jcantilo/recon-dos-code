@@ -19,3 +19,4 @@ resumen = result['outputs'][0]['data']['concepts']
 for x in resumen:
     if x['value'] > 0.01:# imprimo los resultados con probab. mayor a 10%
         print (x['name'], x['value'])
+        #fin rutina
